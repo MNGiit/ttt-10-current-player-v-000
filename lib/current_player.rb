@@ -3,5 +3,10 @@ def current_player(board)
 end
 
 def turn_count(board)
-  board.each 
+  count = 0
+  board.each do |player|
+    if player == "X" || player == "O"
+      count+=1
+    end
+  end
 end
