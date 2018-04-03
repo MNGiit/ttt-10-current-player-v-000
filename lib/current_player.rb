@@ -9,5 +9,5 @@ def turn_count(board)
       count+=1
     end
   end
-  count
+  count #seems I don't have to put return
 end
